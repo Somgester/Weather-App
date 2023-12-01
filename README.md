@@ -1,3 +1,6 @@
 # Weather-App
--It Can Tell The Current Weather In Your City
--Weather Of Anywhere In The World Hahahaha
+
+This Application Can Tell The Weather OutSide:
+- Current and “Feels like” temperature
+- Check Whether Your Friend is Lying about The Weather.
+- HAhahahaha
