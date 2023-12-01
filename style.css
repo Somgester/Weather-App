@@ -1,51 +1,36 @@
 body{
   background-color: black;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container{
   background-color: white;
   border-radius: 10px;
   position: relative;
-  left: 40%;
-  /* padding: 10px;
-  margin: 10px; */
-  width: 300px;
+  width: 80%;
   max-width: 500px;
   height: auto;
-  margin-top: 10%;
+  margin: 2.5em auto;
   justify-content: center;
   align-items: center;
+  outline: dashed 1px black;
 }
 
-/* input[type="submit"]{
-  background-color: lightblue;
-  border-radius: 10px;
-  border: none;
-  padding: 5px;
-  margin: 5px;
-} */
-
-
 input{
-  width: 200px;
+  width: 95%;
   background-color: lightblue;
   border-radius: 10px;
   border: none;
   padding: 5px;
-  margin: 5px;
+  margin-inline: 5px auto;
   text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 
 img{
-  /* border-radius: 10px; */
-  width: 200px;
-  /* height: auto; */
+  width: 90%;
   justify-content: center;
   align-items: center;
-  margin-left: 50px;
+  margin-left: 5%;
 }
 
 button{
@@ -54,9 +39,41 @@ button{
   border-radius: 10px;
   border: none;
   padding: 5px;
-  margin-inline: -5px;
+  margin: 0 auto;
   cursor: pointer;
   width: 70px;
-  align-items: end;
-  justify-content: end;
+  display: block;
+}
+
+button:hover{
+  box-shadow: 0 0 5px black,
+    0 0 15px black, 0 0 25px black,
+    0 0 50px rgb(49, 54, 54), 0 0 100px rgb(64, 75, 75);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  input, img, button {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 95%;
+  }
+  input, img, button {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    width: 95%;
+  }
+  input, img, button {
+    width: 95%;
+  }
 }
