@@ -1,2 +1,3 @@
 # Weather-App
-Weather-App...... You Know what ???   This App Can tell The weather In Your City
+--It Can Tell The Current Weather In Your City
+--Weather Of Anywhere In The World Hahahaha
