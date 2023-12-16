@@ -6,6 +6,4 @@ This Application Can Tell The Weather OutSide:
     HAhahahaha
 
 ## To clone this repo
-    -- open terminal
-    -- type
-**git clone "https://github.com/Somgester/Weather-App.git"**
+   git clone "https://github.com/Somgester/Weather-App.git"
