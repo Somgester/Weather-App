@@ -6,4 +6,5 @@ This Application Can Tell The Weather OutSide:
     HAhahahaha
 
 ## To clone this repo
-    -- git clone "https://github.com/Somgester/Weather-App.git"
+## Open Terminal/macTerminal/powerShell And Type
+    git clone "https://github.com/Somgester/Weather-App.git"
