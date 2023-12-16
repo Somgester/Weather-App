@@ -20,6 +20,15 @@ document.getElementById('submit').addEventListener('click', function () {
             else if(type.innerHTML == "Rain"){
                 image.src = "rain.webp";
             }
+            else if(type.innerHTML == "Haze"){
+                image.src = "haze.png";
+            }
+            else if(type.innerHTML == "Smoke"){
+                image.src = "fog.avif";
+            }
+            else if(type.innerHTML == "Snow"){
+                image.src = "snow.png";
+            }
         })
         .catch(error => console.error('Error:', error));
 });
