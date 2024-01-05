@@ -20,7 +20,7 @@ document.getElementById('submit').addEventListener('click', function () {
             else if(type.innerHTML == "Rain"){
                 image.src = "rain.webp";
             }
-            else if(type.innerHTML == "Haze"){
+            else if(type.innerHTML == "Mist"){
                 image.src = "haze.png";
             }
             else if(type.innerHTML == "Smoke"){
