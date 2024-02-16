@@ -9,14 +9,14 @@
     <div class="container">
       <h1>Check The Weather</h1>
       <div class="search-box">
-        <input type="text" id="search-box" placeholder="Enter The Cith To Check The Weather...">
+        <input type="text" id="search-box"  placeholder="Enter your City..." onkeyup="handleEnter(event)">
         <br>
-        <button id="submit">Search</button>
+        <button id="submit" type = "submit">Search</button>        
       </div>
-      <h2 id="city"></h2>
+      <h2 id="city" style="color: orange;"></h2>
       <img id="image" src="" alt="">
-      <h2 id="temp"></h1>
-      <h2 id="type"></h3>
+      <h2 id="temp"></h2>
+      <h2 id="type" style="color: blue;"></h2>
       </div>
     <script src="script.js"></script>
   </body>
