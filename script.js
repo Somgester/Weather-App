@@ -39,6 +39,8 @@ document.getElementById('submit').addEventListener('click', function () {
             {
                 image.src = "snow.png";
             }
+
+            
         }
         )
         .catch(error => console.error('Error:', error));
