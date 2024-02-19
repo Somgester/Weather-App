@@ -1,79 +1,88 @@
 body{
-  background-color: black;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: linear-gradient(#101056,#228383);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
-
 .container{
-  background-color: white;
-  border-radius: 10px;
-  position: relative;
-  width: 80%;
-  max-width: 500px;
-  height: auto;
-  margin: 2.5em auto;
-  justify-content: center;
-  align-items: center;
-  outline: dashed 1px black;
-}
-
-input{
-  width: 95%;
-  background-color: lightblue;
-  border-radius: 10px;
-  border: none;
-  padding: 5px;
-  margin-inline: 5px auto;
-  text-align: center;
-}
-
-img{
-  width: 90%;
-  justify-content: center;
-  align-items: center;
-  margin-left: 5%;
-}
-
-button{
-  background-color: black;
   color: white;
+  text-align: center;
+  background-image: linear-gradient(#101056,#767677);
+  align-items: center;
+  width: 30vw;
+  box-shadow: 0 0 10px 0 rgb(255, 252, 252);
   border-radius: 10px;
-  border: none;
-  padding: 5px;
-  margin: 0 auto;
+}
+#submit{
+  background-color: #101056;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
   cursor: pointer;
-  width: 70px;
-  display: block;
+  border: none;
+  margin: 10px;
+}
+#search-box{
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 25vw;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  margin: 10px;
+}
+#image{
+  width: 10vw;
 }
 
-button:hover{
-  box-shadow: 0 0 5px black,
-    0 0 15px black, 0 0 25px black,
-    0 0 50px rgb(49, 54, 54), 0 0 100px rgb(64, 75, 75);
+@media only screen and (max-width: 600px) {
+  .container{
+    width: 80vw;
+  }
+  #search-box{
+    width: 65vw;
+  }
+  #image{
+    width: 30vw;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .container {
-    width: 95%;
+  .container{
+    width: 80vw;
   }
-  input, img, button {
-    width: 95%;
+  #search-box{
+    width: 65vw;
+  }
+  #image{
+    width: 30vw;
   }
 }
-
 @media screen and (max-width: 480px) {
-  .container {
-    width: 95%;
+  .container{
+    width: 80vw;
   }
-  input, img, button {
-    width: 95%;
+  #search-box{
+    width: 65vw;
+  }
+  #image{
+    width: 30vw;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .container {
-    width: 95%;
+@media screen and (max-width: 1180px) {
+  .container{
+    width: 80vw;
   }
-  input, img, button {
-    width: 95%;
+  #search-box{
+    width: 65vw;
+  }
+  #image{
+    width: 30vw;
   }
 }
